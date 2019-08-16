@@ -1,16 +1,16 @@
 <div>
-  <h1>函数式编程</h1>
+  <h1>Functional programming</h1>
   <br>
   <br>
-  <h2>假如一件商品的价格已知，输入成本计算出盈利值以及盈利率</h2>
-  <p>商品价格：500</p>
+  <h2>If the price of an item is known, the input cost calculates the profit value and the profit rate.</h2>
+  <p>Price: 500</p>
   <div>
-    <label for="cost">商品成本：</label>
+    <label for="cost">Cost：</label>
     <input type="number" name="cost" (ngModelChange)="changeCost($event)" [(ngModel)]="cost">
   </div>
   <br>
   <div>
-    <p>商品盈利值：<span>{{profit}}</span></p>
-    <p>商品盈利率：<span>{{profitRate}}</span></p>
+    <p>Profit: <span>{{profit}}</span></p>
+    <p>ProfitRate: <span>{{profitRate}}</span></p>
   </div>
 </div>
