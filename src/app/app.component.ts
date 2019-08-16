@@ -29,7 +29,6 @@ export class AppComponent {
   }
 
   changeCost(cost: number) {
-    console.log(this.formatRate);
     this.profit = this.getProfit(cost);
     this.profitRate = this.getProfitRate(cost);
   }
